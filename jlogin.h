@@ -5,9 +5,12 @@
 #include<process.h>
 using namespace std;
 COORD coord={0,0};
+
+//siddhant mehrotra
 void gotoxy(int x,int y)
 {
  coord.X=x;
+
  coord.Y=y;
  SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
  }
